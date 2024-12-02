@@ -1,0 +1,90 @@
+.converter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 400px;
+    margin: 2rem auto;
+    background-color: #f8f9fa;
+    color: #000;
+    box-shadow: 0 4px 12px rgba(175, 15, 15, 0.7);
+}
+
+.converter h2 {
+    color: #343a40;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.converter input, 
+.converter select {
+    width: 100%;
+    padding: .7rem 1rem;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+}
+
+.converter input {
+    margin-bottom: 32px;
+}
+
+.converter span,
+.converter p {
+    margin: .5rem;
+    font-size: 1rem;
+    color: #495057;
+}
+
+.converter p {
+    font-size: 1.2rem;
+}
+
+.converter button {
+    margin-top: 20px;
+    min-width: 150px;
+    border: none;
+}
+
+.converter button:hover {
+    background-color: #575151;
+}
+
+.converter ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;  
+}
+
+.converter li {    
+    background-color: #d2dfe0;
+    list-style-type: none;    
+    border: 2px solid #000;
+    border-radius: 6px;
+    margin: 5px;
+}
+
+.converter li:hover {    
+    background-color: #9ed1d4;      
+    border: 2px solid #11a8e4;
+    border-radius: 12px;   
+}
+
+.converter a {
+    color: #1167d6;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.result {
+    min-width: 120px;
+    min-height: 70px;
+    border: 2px solid #11a8e4;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 20px;
+}
